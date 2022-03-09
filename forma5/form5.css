@@ -1,0 +1,72 @@
+body {
+    margin: 0px !important;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1175e9;
+    box-sizing: border-box;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    align-content: center;
+}
+h2 {
+    color: white;
+}
+.texts {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 5px;
+    
+}
+hr {
+    width: 99%;
+    border-color: #1175e9;
+}
+.txt {
+    color: white;
+    padding: 10px
+}
+.links {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.product {
+    margin-top: 3px;
+    padding-left: 15px;
+}
+
+
+@media (max-width: 725px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+}
+}
+
+
+@media (max-width: 455px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 70px;
+}
+}
+
+@media (max-width: 325px) {
+    .txt {
+        text-align: center;
+}
+}

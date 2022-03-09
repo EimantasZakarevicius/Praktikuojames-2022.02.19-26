@@ -1,0 +1,25 @@
+body {
+    margin: 0; 
+    font-family: 'Open Sans', sans-serif; ;
+    line-height: 20px;
+    color: #999999;
+    font-size: 16px;
+}
+
+.banner {
+    background-image: url(./bg-banner.jpg);
+    background-size: cover;
+    min-height: 650px;
+    position: relative;
+}
+
+.bignavbar {
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+}

@@ -1,0 +1,134 @@
+.bd {
+    background-color: #1076eb;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.parent {
+    background-color: #e1e1db;
+    width: 1400px;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.child {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.input {
+    background-color: #1076eb;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 40px;
+    padding: 5px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+.doll {
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: -14px;
+}
+.pp {
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.textt {
+    padding: 5px;
+    line-height: 20px;
+}
+.button {
+    background-color: white;
+    color: #1076eb;
+    border: 1px solid #1076eb ;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 50px ;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1400px) {
+    .parent {
+        display: flex;
+        flex: wrap;
+        width: 1200px;
+        justify-content: center;
+}
+}
+
+@media (max-width: 1200px) {
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        width: 850px;
+        height: 1000px;
+        justify-content: center;
+}
+    .child {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 875px) {
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+        height: 1000px;
+        justify-content: center;
+}
+    .child {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 625px) {
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        width: 310px;
+        height: 1800px;
+        justify-content: center;
+        padding: 20px 0;
+}
+    .child {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 335px) {
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        width: 270px;
+        height: 1800px;
+        justify-content: center;
+        padding: 20px 0;
+}
+    .child {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
